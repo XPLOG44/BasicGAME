@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>DESCRIPTION</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <h1 class="head1" id="head">HELLO WORLD</h1>
+<div class="infocontainer">
+  <ul class="infobar">
+    <li id="li1">
+          <span id="sp11">player1:_</span>
+          <span class="score" id="sp1">0</span>
+    </li>
+    <li id="li2">
+          <span id="sp22">player2:_</span>
+          <span class="score" id="sp2">0</span>
+    </li>
+    <li id="li3">DRAWS:_
+          <span class="score" id="sp3">0</span>
+    </li>
+  </ul>
+</div>  
+     
+    <div class="btncontainer" id="btncontainer">
+    
+       <button class="stbtn 1" onclick="start()"> START</button>
+        <button class="stbtn 2 , mid" onclick="sett()"> SETTINGS</button>
+        <button class="stbtn 2 , tww" onclick="sett()"> SETTINGS</button>
+       
+       </div>   
+       
+       
+       
+     <div class="container" id="GMcontainer">
+            
+         <button class="btn1" onclick="U1()" id="U1"></button>
+         <button class="btn1" onclick="U2()" id="U2"></button>
+         <button class="btn1" onclick="U3()" id="U3"></button>
+                     
+         <button class="btn1" onclick="M1()" id="M1"></button>
+         <button class="btn1" onclick="M2()" id="M2"></button>
+         <button class="btn1" onclick="M3()" id="M3"></button>
+            
+        <button class="btn1" onclick="D1()" id="D1"></button>
+        <button class="btn1" onclick="D2()" id="D2"></button>
+        <button class="btn1" onclick="D3()" id="D3"></button>
+            
+    </div>
+       <div class="settings" id="settings">
+    <div class="btcontainer">
+     <input class="inp" id="inp1" placeholder="player1" value="">
+            </br>
+            <input class="inp" id="inp2" placeholder="player2">
+            </br>
+            <button class="btnsave" onclick="save()"> save</button>
+          </div>
+       </div>
+       
+      
+       
+       <script src="main.js"></script>
+</body>
+  </html>
+  
