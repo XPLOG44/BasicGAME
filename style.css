@@ -1,0 +1,128 @@
+body{
+     background-image: linear-gradient( 45deg , #0a0a0a , #3a4452 );
+     width: 1000px;
+     height: 2000px;
+     display: grid;
+     justify-content: center;
+      
+}
+.head1{
+     text-align: center;
+     font-size: 200%;
+}
+.btncontainer{
+     display: block;
+     align-items: center;
+}
+
+.container{
+     border: 2px solid rgb(116 , 114 114);
+     height: 900px;
+     width: 900px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-content: space-between;
+     display: none;
+     background-color: transparent;
+     box-shadow: 0 0 30px #000;
+}
+.btn1{
+     border: 1px solid rgb(116 , 114 114);
+     height: 300px;
+     width: 300px;
+     position: ;
+     display: ;
+     border-radius: 0px;
+     font-size: 500%;
+     background-color: transparent;
+     border-width: 0px;
+     color: cyan;
+     
+}
+.settings{
+     display: none;
+     height: 900px;
+     width:900px;
+     box-shadow: 2px 2px 40px black;
+     justify-content: center;
+     border-radius: 15px;
+}
+.inp{
+     background-color: transparent;
+     border-width: 1px;
+     border: 1px solid white;
+     
+}
+.infobar{
+     margin-top: 200px;
+     position: ;
+     font-size: 300%;
+}
+.score{
+     color: cyan;
+}
+.btnsave{
+     width: 300px;
+     height: 75px;
+     background-color: transparent;
+     color: green;
+     border-width: 1px;
+     border: 1px solid cyan;
+}
+.inp{
+     background-color: transparent;
+     width: 300px;
+     height: 75px;
+     font-size: 300%;
+     color: cyan;
+     font-family: cursive;
+     border: 0px;
+}
+.btcontainer{
+     margin: 300px;
+     border: 1px solid black;
+     
+}
+.btnsave:hover{
+     box-shadow: 2px 2px 50px black;
+}
+
+.stbtn{
+     width: 400px;
+     height: 150px;
+     background: transparent;
+     justify-conten: space-between;
+     border: 1px solid #000;
+     display: flex;
+     flex-wrap: ;
+     font-size: 300%;
+     border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
+     text-align: center;
+}
+.stbtn:hover{
+     box-shadow: 2px 2px 50px cyan;
+     color: white;
+}
+.tww {
+     border-radius: 0% 100% 50% 50% / 0% 0% 100% 100% ;
+}
+.mid{
+     border-radius: 0px;
+}
+.infocontainer{
+     position: fixed;
+     top: 20px;
+     box-shadow: 0 0 30px #000;
+     width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
